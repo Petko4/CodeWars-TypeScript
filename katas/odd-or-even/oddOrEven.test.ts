@@ -1,6 +1,6 @@
 const oddOrEvenTest = require("./oddOrEven");
 
-test("String repeat", () => {
+test("Odd or Even?", () => {
   expect(oddOrEvenTest([0])).toMatch("even");
   expect(oddOrEvenTest([1])).toMatch("odd");
   expect(oddOrEvenTest([])).toMatch("even");
